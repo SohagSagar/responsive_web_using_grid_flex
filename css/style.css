@@ -1,0 +1,126 @@
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F1FF;
+}
+
+.top-section{
+    max-width: 870px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+span{
+    color: #9F9F9F;
+}
+
+/* navigation bar styling*/
+.container{
+    background-color: #562EFF;
+    height: 94px;
+    
+}
+.nav-info{
+    max-width: 870px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.logo img{
+    width: 40px;
+    height: 51px;
+    
+}
+.logo p{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-left: 15px;
+}
+.navigation{
+    display: flex;
+    margin-top: 5px;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items li{
+    list-style: none;
+    color: #FFFFFF;
+    padding: 0 20px;
+}
+.navigation img{
+    width: 51px;
+    height: 51px;
+    margin: left 15px ;
+}
+
+
+/* top section styling */
+.section-title h2{
+    margin-left: 30px;
+    color: #562EFF;
+    font-size: 24px;
+    padding-top: 20px;
+    font-weight: 500;
+   
+}
+
+.players{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.player img{
+    margin-top: 10px;
+    width: 56px;
+    height: 56px;
+}
+.player-name h3{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hr-line{
+    width:807px;
+    border: 1px solid #D1D1D1;
+    margin-top: 40px;
+}
+
+/* top blog styling */
+.blogs{
+    display: grid;
+    margin-right: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-thamnail img{
+    width: 224px;
+    height: 127px;
+}
+.blog-info{
+    margin-left:16px;
+}
+.blog-info h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+.blog-info h6{
+    font-size: 12px;
+    font-weight: 500;
+    color: #562EFF;
+}
