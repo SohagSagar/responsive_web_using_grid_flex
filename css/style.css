@@ -43,8 +43,6 @@ span{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    /* position: fixed;
-    width: 100%; */
     
 }
 .logo{
@@ -203,3 +201,134 @@ span{
 .duration-time i{
     padding-right: 5px;
 }
+
+/* media queries */
+/* for mobile devies || players */
+
+@media only screen and (max-width:688px ) {
+    .section-title{
+        text-align: center;
+    }
+    .players, .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .section-inner-style {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .course img{
+        margin-left: 40px;
+    }
+   /* nav-bar */
+   .nav-info{
+       justify-content: center;
+       align-items: center;
+       margin-top: 15px;
+       width: 100%;
+   }
+    .logo img{
+        width: 25px;
+        height: 30px;
+        margin-left: 7px;
+        
+    }
+    .logo p{
+        color: #FFFFFF;
+        font-size: 15px;
+        margin-left: 7px;
+    }
+    .navigation{
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    .menu-items li{
+        list-style: none;
+        color: #FFFFFF;
+        padding: 0 10px;
+        font-size: 15px;
+    }
+    .navigation img{
+        width: 41px;
+        height: 41px;
+        margin: left 15px ;
+        margin-top: 7px;
+    }
+
+
+    
+}
+
+/* for tablet */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .section-title{
+        text-align: center;
+    }
+    .players{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(2,1fr);
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .section-inner-style {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 15px;
+        grid-column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .course img{
+        margin-left: 40px;
+    }
+
+    /* nav-bar */
+   .nav-info{
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+ .logo img{
+     width: 25px;
+     height: 30px;
+     margin-left: 7px;
+     
+ }
+ .logo p{
+     color: #FFFFFF;
+     font-size: 15px;
+     margin-left: 7px;
+ }
+ .navigation{
+     display: flex;
+     margin-top: 5px;
+ }
+ 
+ .menu-items li{
+     list-style: none;
+     color: #FFFFFF;
+     padding: 0 20px;
+     font-size: 15px;
+ }
+ .navigation img{
+     width: 41px;
+     height: 41px;
+     margin: left 15px ;
+     margin-top: 7px;
+ }
+
+}
+
