@@ -229,10 +229,7 @@ span{
     }
    /* nav-bar */
    .nav-info{
-       justify-content: center;
-       align-items: center;
-       margin-top: 15px;
-       width: 100%;
+       justify-content: flex-start;
    }
     .logo img{
         width: 25px;
@@ -245,14 +242,9 @@ span{
         font-size: 15px;
         margin-left: 7px;
     }
-    .navigation{
-        display: flex;
-        margin-top: 5px;
-    }
+    
     
     .menu-items li{
-        list-style: none;
-        color: #FFFFFF;
         padding: 0 10px;
         font-size: 15px;
     }
