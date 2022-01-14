@@ -206,6 +206,41 @@ span{
 /* for mobile devies || players */
 
 @media only screen and (max-width:688px ) {
+    /* nav-bar */
+    *{
+        overflow-x: hidden;
+    }
+   .nav-info{
+       margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+    .logo img{
+     width: 25px;
+     height: 30px;
+     margin-left: 7px;
+     
+    }
+    .logo p{
+     color: #FFFFFF;
+     font-size: 15px;
+     margin-left: 7px;
+    }
+ 
+ 
+    .menu-items li{
+     padding: 0 10px;
+     font-size: 15px;
+    }
+    .navigation img{
+     width: 41px;
+     height: 41px;
+     margin: left 15px ;
+    
+     margin-top: 7px;
+    }
+
+
     .section-title{
         text-align: center;
     }
@@ -227,35 +262,7 @@ span{
     .course img{
         margin-left: 40px;
     }
-   /* nav-bar */
-   .nav-info{
-       justify-content: flex-start;
-   }
-    .logo img{
-        width: 25px;
-        height: 30px;
-        margin-left: 7px;
-        
-    }
-    .logo p{
-        color: #FFFFFF;
-        font-size: 15px;
-        margin-left: 7px;
-    }
-    
-    
-    .menu-items li{
-        padding: 0 10px;
-        font-size: 15px;
-    }
-    .navigation img{
-        width: 41px;
-        height: 41px;
-        margin: left 15px ;
-        margin-top: 7px;
-    }
-
-
+   
     
 }
 
@@ -269,10 +276,6 @@ span{
     }
     .blogs{
         grid-template-columns: repeat(2,1fr);
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
     }
     .section-inner-style {
         display: grid;
@@ -293,34 +296,34 @@ span{
     align-items: center;
     margin-top: 15px;
 }
- .logo img{
-     width: 25px;
-     height: 30px;
-     margin-left: 7px;
-     
- }
- .logo p{
-     color: #FFFFFF;
-     font-size: 15px;
-     margin-left: 7px;
- }
- .navigation{
-     display: flex;
-     margin-top: 5px;
- }
- 
- .menu-items li{
-     list-style: none;
-     color: #FFFFFF;
-     padding: 0 20px;
-     font-size: 15px;
- }
- .navigation img{
-     width: 41px;
-     height: 41px;
-     margin: left 15px ;
-     margin-top: 7px;
- }
+    .logo img{
+        width: 25px;
+        height: 30px;
+        margin-left: 7px;
+        
+    }
+    .logo p{
+        color: #FFFFFF;
+        font-size: 15px;
+        margin-left: 7px;
+    }
+    .navigation{
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    .menu-items li{
+        list-style: none;
+        color: #FFFFFF;
+        padding: 0 20px;
+        font-size: 15px;
+    }
+    .navigation img{
+        width: 41px;
+        height: 41px;
+        margin: left 15px ;
+        margin-top: 7px;
+    }
 
 }
 
